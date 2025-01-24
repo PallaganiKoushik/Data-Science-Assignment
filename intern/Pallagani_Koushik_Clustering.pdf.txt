@@ -1,0 +1,14 @@
+Optimal Number of Clusters:
+The algorithm determined that the best number of clusters for the data is 4, based on the 
+Davies-Bouldin (DB) Index.
+
+Davies-Bouldin Index:
+Value: 1.106
+This metric measures the quality of clustering, where lower values indicate better-defined clusters. 
+A value close to 1 suggests reasonably good cluster separation.
+
+Silhouette Score:
+
+Value: 0.275
+This measures how similar data points are to their assigned clusters compared to other clusters. 
+While 0.275 isn't very high, it suggests some cluster overlap, which can happen in complex data.
